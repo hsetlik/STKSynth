@@ -5,6 +5,43 @@
               companyName="yourcompany">
   <MAINGROUP id="YJiW9M" name="STKSynth">
     <GROUP id="{524F709F-8378-75D2-F1E3-E659111CA302}" name="Source">
+      <FILE id="qpIfNE" name="StkUtility.cpp" compile="1" resource="0" file="Source/StkUtility.cpp"/>
+      <FILE id="yyyv9L" name="StkUtility.h" compile="0" resource="0" file="Source/StkUtility.h"/>
+      <FILE id="A7mAI8" name="AudioFileLoader.cpp" compile="1" resource="0"
+            file="Source/AudioFileLoader.cpp"/>
+      <FILE id="UN1e8g" name="AudioFileLoader.h" compile="0" resource="0"
+            file="Source/AudioFileLoader.h"/>
+      <GROUP id="{5C8A7E1C-1466-7BE2-6E46-6509F3447908}" name="Components">
+        <FILE id="PkiWRo" name="CustomLnFs.cpp" compile="1" resource="0" file="Source/Components/CustomLnFs.cpp"/>
+        <FILE id="vd2R2U" name="CustomLnFs.h" compile="0" resource="0" file="Source/Components/CustomLnFs.h"/>
+        <FILE id="sV16PS" name="DAHDSRGraph.cpp" compile="1" resource="0" file="Source/Components/DAHDSRGraph.cpp"/>
+        <FILE id="kpN2QO" name="DAHDSRGraph.h" compile="0" resource="0" file="Source/Components/DAHDSRGraph.h"/>
+        <FILE id="IiCf95" name="DragDropContainer.cpp" compile="1" resource="0"
+              file="Source/Components/DragDropContainer.cpp"/>
+        <FILE id="ft1kRN" name="DragDropContainer.h" compile="0" resource="0"
+              file="Source/Components/DragDropContainer.h"/>
+        <FILE id="gmNHkZ" name="EnvelopeComponent.cpp" compile="1" resource="0"
+              file="Source/Components/EnvelopeComponent.cpp"/>
+        <FILE id="LwA615" name="EnvelopeComponent.h" compile="0" resource="0"
+              file="Source/Components/EnvelopeComponent.h"/>
+        <FILE id="NFwori" name="ModSourceComponent.cpp" compile="1" resource="0"
+              file="Source/Components/ModSourceComponent.cpp"/>
+        <FILE id="M191GA" name="ModSourceComponent.h" compile="0" resource="0"
+              file="Source/Components/ModSourceComponent.h"/>
+        <FILE id="zRGdwA" name="ModTargetComponent.cpp" compile="1" resource="0"
+              file="Source/Components/ModTargetComponent.cpp"/>
+        <FILE id="OUX9Sh" name="ModTargetComponent.h" compile="0" resource="0"
+              file="Source/Components/ModTargetComponent.h"/>
+        <FILE id="wMo9ez" name="RgbColor.h" compile="0" resource="0" file="Source/Components/RgbColor.h"/>
+        <FILE id="qpsO05" name="SliderTypes.cpp" compile="1" resource="0" file="Source/Components/SliderTypes.cpp"/>
+        <FILE id="OH0mHA" name="SliderTypes.h" compile="0" resource="0" file="Source/Components/SliderTypes.h"/>
+      </GROUP>
+      <GROUP id="{33F7C976-166B-881C-96AA-0206AEECE20A}" name="Synthesis">
+        <FILE id="oKXO0q" name="WavetableOscillator.cpp" compile="1" resource="0"
+              file="Source/Synthesis/WavetableOscillator.cpp"/>
+        <FILE id="seo06H" name="WavetableOscillator.h" compile="0" resource="0"
+              file="Source/Synthesis/WavetableOscillator.h"/>
+      </GROUP>
       <FILE id="BoF2oR" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="T0ct2C" name="PluginProcessor.h" compile="0" resource="0"
